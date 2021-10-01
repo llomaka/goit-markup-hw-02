@@ -1,6 +1,21 @@
+/* Визначення кольорів */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-color-dark: #2f303a;
+  --background-color-light: #f5f4fa;
+  --primary-header-color: #ffffff;
+  --logo-color: #000000;
+  --footer-logo-color: #ffffff;
+  --footer-contatcs-color: rgba(255, 255, 255, 0.6);
+}
+
 .page {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 /* колір заголовка h1 #FFFFFF;*/
 /* navigation link hover #2196F3;*/
@@ -8,17 +23,21 @@
 /* logo color1 #2196F3; */
 /* logo color2 #000000; */
 
+/* Логотип */
+
 .logo {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .list {
   list-style: none;
 }
+
+/* Меню навігації */
 
 .site-nav,
 .site-contacts {
@@ -28,81 +47,91 @@
 
 .site-nav-link {
   text-decoration: none;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .site-nav-link:hover,
 .site-nav-link:focus,
 .logo-highlight {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-contacts-link {
   text-decoration: none;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
+/* Головний розділ сайту */
+
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color-dark);
   text-align: center;
 }
 
 .hero-title {
   font-size: 44px;
   font-weight: 900;
-  color: #ffffff;
+  color: var(--primary-header-color);
   text-transform: uppercase;
 }
 
 .hero-button {
   font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
+
+/* Типовий розділ */
 
 .section-title {
   font-size: 36px;
   font-weight: 700;
-  color: #212121;
+  color: var(--primary-text-color);
 }
+
+/* Розділ Чем мы занимаемся */
 
 .about-subtitle {
   font-size: 14px;
   font-weight: 700;
-  color: #212121;
+  color: var(--primary-text-color);
   text-transform: uppercase;
 }
 
 .about-text {
   font-size: 14px;
   font-weight: 400;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
+/* Розділ Наша команда */
+
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--background-color-light);
 }
 
 .team-name {
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .team-position {
   font-size: 16px;
   font-weight: 400;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
+/* Нижній колонтитул */
+
 .footer {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--background-color-dark);
+  color: var(--white-color);
 }
 
 .footer-logo {
@@ -110,7 +139,7 @@
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .post-address {
@@ -121,10 +150,13 @@
 
 .footer-contacts-link {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  color: var(--footer-contatcs-color);
 }
 
-.btn-items {
+/* Розділ Портфолио */
+
+.btn {
   text-align: center;
 }
 
@@ -132,17 +164,28 @@
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  background-color: var(--background-color-light);
+  display: inline-block;
+  padding: 6px 22px;
+  border-color: transparent;
+  height: 38px;
 }
+
+.btn-item:hover,
+.btn-item:active {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
 .portfolio-name {
   font-size: 18px;
   font-weight: 700;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .portfolio-type {
   font-size: 16px;
   font-weight: 400;
-  color: #757575;
+  color: var(--secondary-text-color);
 }
