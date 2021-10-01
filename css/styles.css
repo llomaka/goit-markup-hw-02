@@ -68,6 +68,36 @@
 .section-title {
   font-size: 36px;
   font-weight: 700;
+  color: #212121;
+}
+
+.about-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.about-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+}
+
+.team-position {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
 
 .footer {
@@ -92,4 +122,27 @@
 .footer-contacts-link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-items {
+  text-align: center;
+}
+
+.btn-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.portfolio-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212121;
+}
+
+.portfolio-type {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
 }
