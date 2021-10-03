@@ -73,7 +73,8 @@
 .header-contacts-link:hover,
 .header-contacts-link:focus,
 .footer-contacts-link:hover,
-.footer-contacts-link:focus {
+.footer-contacts-link:focus,
+.post-address:hover {
   color: var(--accent-color);
 }
 
