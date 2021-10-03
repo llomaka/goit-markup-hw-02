@@ -110,21 +110,18 @@
 .section-title {
   font-size: 36px;
   line-height: 1.17;
-  font-weight: 700;
 }
 
 /* Розділ Чем мы занимаемся */
 
 .about-subtitle {
   font-size: 14px;
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .about-text {
   font-size: 14px;
-  font-weight: 400;
   color: var(--secondary-text-color);
 }
 
@@ -142,7 +139,6 @@
 
 .team-position {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.19;
   color: var(--secondary-text-color);
 }
@@ -211,7 +207,6 @@
 
 .portfolio-name {
   font-size: 18px;
-  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
@@ -219,7 +214,6 @@
 
 .portfolio-type {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.87;
   color: var(--secondary-text-color);
 }
