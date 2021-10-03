@@ -199,6 +199,7 @@
 .btn-item:active {
   color: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .portfolio-link {
